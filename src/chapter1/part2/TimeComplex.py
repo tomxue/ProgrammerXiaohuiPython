@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 def eat1(n):
     for i in range(n):
         print("等待1min")
@@ -23,8 +26,8 @@ def eat3(n):
 def eat4(n):
     for i in range(n):
         for j in range(i):
-            print("等待1min")
-        print("吃1cm面包")
+            print("Wait for 1min")
+        print("Eat 1cm 面包")
 
 
 eat4(16)

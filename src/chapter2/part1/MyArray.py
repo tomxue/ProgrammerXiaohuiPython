@@ -1,4 +1,4 @@
-
+﻿
 class MyArray:
     def __init__(self, capacity):
         self.array = [None] * capacity
@@ -47,20 +47,31 @@ class MyArray:
 
     def output(self):
         for i in range(self.size):
-            print(self.array[i])
+            print("i = ", i, ", array[i] = ", self.array[i], ", self.size = ", self.size)
+        print("            ")
 
 
 array = MyArray(4)
+array.output()
 array.insert_v2(0, 10)
+array.output()
 array.insert_v2(1, 11)
+array.output()
 array.insert_v2(2, 12)
+array.output()
 array.insert_v2(3, 13)
+array.output()
 array.insert_v2(4, 14)
+array.output()
 array.insert_v2(2, 15)
+array.output()
 array.insert_v2(2, 16)
+array.output()
 array.insert_v2(2, 17)
+array.output()
 array.remove(0)
 array.output()
+
 
 
 
